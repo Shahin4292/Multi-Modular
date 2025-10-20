@@ -13,3 +13,4 @@ A new Flutter project.
 
 ## How to create a module
 1- --> flutter create --template=package core/data
+2- --> flutter create --template=package domain
