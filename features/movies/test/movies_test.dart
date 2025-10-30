@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import '../lib/movies.dart';
+import 'package:movies/movies.dart';
 
 void main() {
   test('adds one to input values', () {
