@@ -1,4 +1,4 @@
-name: flutter_advanced_course_multi_modular_clean_architecture
+name: multi_modular
 packages:
   - core/**
   - features/**
@@ -15,3 +15,10 @@ command:
 
     dev_dependencies:
       flutter_lints: ^5.0.0
+
+scripts:
+  clean: melos clean
+  cleanAndBootstrap: melos clean && melos bootstrap
+  test:
+    run: flutter test
+  update: flutter pub outdated
